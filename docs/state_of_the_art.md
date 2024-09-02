@@ -4,7 +4,6 @@
 🆒 Lesson learned / useful
 
 ---
----
 
 ## TOPIC: The issue (and need) of sustainable development of mountain huts
 
@@ -101,6 +100,13 @@
 💡 Propose a simple indicator for measuring efficiency of an alpine destination, mostly related to productivity-quality-sustainability. Uses DEA (data envelopment analysis) method.
 
 ---
+📝 Kozic, I., & Mikulic, J. (2014). Research Note: Measuring Tourism Sustainability: An Empirical Comparison of Different Weighting Procedures Used in Modelling Composite Indicators. Tourism Economics, 20, 429–438. https://doi.org/10.5367/te.2013.0283
+
+💡 Compares three different procedures for weighting sustainability indicators in the construction of composite indicators of tourism sustainability (TS). The three procedures are Factor Analysis, Expert Opinion and equal weights. Findings suggests the more appropriate technique depends on the degree of correlations between the individual indicators (reflective vs formative conceptualization).
+
+🆒 Understand if the individual indicators I will use fall in the reflective or formative scenario. 
+
+
 
 
 
