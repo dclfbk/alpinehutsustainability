@@ -31,7 +31,7 @@
   13.Promuovere l’elettrificazione ad alta efficienza di utenze isolate (es. rifugi), comunitá e sistemi distribuiti remoti ad elevato impatto ambientale (come ad esempio gli impianti di risalita delle stazioni sciistiche) tramite micro-reti alimentate esclusivamente o prevalentemente con fonti rinnovabili eventualmente supportate da sistemi di accumulo.
   
   Objective: Sustainable Mobility (p. 92)  
-
+  
 ---
 
 📝 Servizio turismo e sport. (2022). Analisi delle esigenze dei rifugi alpini. Provincia Autonoma di Trento. Retrieved from Provincia Autonoma di Trento website: https://www.provincia.tn.it/News/Approfondimenti/Analisi-delle-esigenze-dei-rifugi-alpini
@@ -39,9 +39,9 @@
 💡 Survey with 51 responses over 74 mountain huts in Trentino aimed at analyzing the needs and challenges of managing mountain huts.
 
 🆒 Main challenges are about water sourcing and electricity. More than 50% of huts declared to have issues with seasonal water scarcity. There is no unique formula for managing the resources of a hut: some rely on a single option (e.g. only solar panels or single water source), others have a combination. This depends on the local context and possibilities of the structure. Managers of huts would invest in more resilient and sustainable alternatives. 
+Also useful for creating the indicator!
 
----
----
+
 ## TOPIC: Initiatives for making mountain huts more sustainable in Trentino 
 📝 Abram, A. (n.d.). Offerta Rifugi sempre più Green Ti presentiamo La Sportiva, technical Partner di SAT. Retrieved 12 July 2024, from SAT website: https://www.sat.tn.it/sat/partner/dolomiti-energia/offerta-rifugi-green/
 
@@ -64,15 +64,21 @@
 
 💡 The first joint congress of the “Trails and Cartography” (SOSEC) and “Mountain Huts and Alpine Works” (SOROA) functional units, held in Trento on 14 and 15 January 2023, confirmed the commitment of the CAI to the future of alpine mountain huts, in light of the climate crisis and the changes taking place in mountain tourism.  The ideas that emerged at the national level, particularly on the issues of sustainability and water resource management.
 
----
----
+## TOPIC: Eco-tourism
+📝 Nepal, S. K. (2002). Mountain Ecotourism and Sustainable Development: Ecology, Economics, and Ethics. Mountain Research and Development, 22(2), 104–109.
+
+💡 Definition of eco-tourism and overview of the trends in mountain ecotourism in developed and developing countries. 
+
+🆒 Environmental impacts of tourism and need for criteria and indicators.
+
+
 ## TOPIC: Measuring Sustainability
 
 📝 Stubelj Ars, M., & Bohanec, M. (2010). Towards the ecotourism: A decision support model for the assessment of sustainability of mountain huts in the Alps. Journal of Environmental Management, 91(12), 2554–2564. https://doi.org/10.1016/j.jenvman.2010.07.006
 
 💡 Proposes a Decision Support Model for assessing the sustainability and ecotourism state of mountain huts in the Slovenian Alps. Decision Support Systems (DSSs) are interactive computer-based systems intended to help decision makers utilize data and models to identify and solve problems and make decisions. This paper proposes a **qualitative multi-attribute model** that characterizes the sustainability of a hut on various aspects (energy, accessibility, etc.) by using hierarchically structured attributes. DSS is implemented on the Dexi software for 4 chosen mountain huts.
 
-🆒  The attributes used seem like a complete and feasible way to assess the level of sustainability. Their approach is purely qualitative, perhaps inspiration can be taken for a defining a quantitative indicator.
+🆒 The attributes used seem like a complete and feasible way to assess the level of sustainability. Their approach is purely qualitative, perhaps inspiration can be taken for a defining a quantitative indicator.
 
 ---
 📝 Mila Gandino. (2014). Il contributo dell’analisi multicriteri spaziale nella gestione sostenibile della rete di rifugi del CAI: il caso della provincia di Sondrio. Politecnico di Milano.
@@ -82,8 +88,7 @@
 🆒  From page 120 (Section 7.4.1) territorial analysis via creating several maps to assess different criterias for the territory’s potential, from touristic/accessibility and landscape value point of view.
 
 ---
----
-### Indicators
+## Indicators
 📝 Alpine Nachhaltigkeit auf Hütten (ANAH). (n.d.). Retrieved 13 August 2024, from https://www.alpenverein-muenchen-oberland.de/umwelt/klimaschutz/nachhaltiger-huettenbetrieb-anah/projekt-zum-nachhaltigen-huettenbetrieb/projekt-anah
 
 📝 Alpine sustainability at mountain huts: Project successfully completed – Universität Innsbruck. (2022, May 3). Retrieved 13 August 2024, from https://www.uibk.ac.at/en/newsroom/2022/alpine-sustainability-at-mountain-huts-project-successfully-comp/
@@ -105,6 +110,24 @@
 💡 Compares three different procedures for weighting sustainability indicators in the construction of composite indicators of tourism sustainability (TS). The three procedures are Factor Analysis, Expert Opinion and equal weights. Findings suggests the more appropriate technique depends on the degree of correlations between the individual indicators (reflective vs formative conceptualization).
 
 🆒 Understand if the individual indicators I will use fall in the reflective or formative scenario. 
+
+---
+📝 Mazziotta, M., & Pareto, A. (2013). METHODS FOR CONSTRUCTING COMPOSITE INDICES: ONE FOR ALL OR ALL FOR ONE? Rivista Italiana Di Economia Demografia e Statistica, (2).
+
+💡 Explains the challenges and methods for creating a composite indicator.
+
+🆒 My indicator will be a composite indicator consisting of several individual indicators for the different facets of sustainability (e.g. “water” will then have different indicators such as distance from water source, number of water sources, water consumption, etc). Each individual indicator is assigned a weight based on a chosen method. Individual indicators should also be normalized. Overall good framework.
+
+--- 
+📝 European Commission. Directorate General for Internal Market, Industry, Entrepreneurship and SMEs. (2016). The European Tourism Indicator System: ETIS toolkit for sustainable destination management. LU: Publications Office. Retrieved from https://data.europa.eu/doi/10.2873/983087
+
+💡 Composite indicator system from the European Commission for tourist destination. 4 facets of sustainability: (1) destination management (2) social and cultural impact (3) economic value (4) environmental impact. 
+
+🆒 Some indicators from the tables starting at page 21 can be adapted to my context. But overall this indicator is more for cities / regions instead of huts which can be considered as destinations, but practices are different. 
+
+---
+
+
 
 
 
