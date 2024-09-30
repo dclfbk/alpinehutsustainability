@@ -1,0 +1,20 @@
+puntuali
+PUP_AS acque superficiali
+PUP_SO sorgenti
+PUP_PO pozzi
+
+areali AREE DI SALVAGUARDIA
+
+PUP_ASU zona di tutela assoluta di acque superficiali
+PUP_POZ zona di tutela assoluta di pozzi
+PUP_SOR zona di tutela assoluta di sorgenti
+
+PUP_SI idr zona di rispetto idrogeologico sorgenti con codifica codsor associata (cod 31)
+PUP_SP pid zona di protezione idrogeologica sorgenti con codifica codsor associata (cod 24)
+
+PUP_PI idr zona di rispetto idrogeologico pozzi con codifica pcod associata (cod 31)
+PUP_PP pid zona di protezione idrogeologica pozzi con codifica pcod associata (cod 24)
+
+PUP_AI idr zona di rispetto idrogeologico acque superficiali con codifica codas associata (cod 31)
+PUP_AP pid zona di protezione idrogeologica acque superficiali con codifica codas associata (cod 24)
+
