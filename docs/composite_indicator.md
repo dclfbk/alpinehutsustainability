@@ -13,6 +13,9 @@ Main sources for inspiration and starting point to define a composite indicator 
 
 Useful source for characterization of measures: Servizio turismo e sport. (2022). Analisi delle esigenze dei rifugi alpini. Provincia Autonoma di Trento. Retrieved from Provincia Autonoma di Trento website: [https://www.provincia.tn.it/News/Approfondimenti/Analisi-delle-esigenze-dei-rifugi-alpini](https://www.provincia.tn.it/News/Approfondimenti/Analisi-delle-esigenze-dei-rifugi-alpini)
 
+--> [LINK TO DIAGRAM OF INDICATOR](https://docs.google.com/drawings/d/1eFwH94PPxf7UthArq_mfeHBxfTvM_MuycQnrXQJuNbQ/edit?usp=sharing) <--
+
+
 | Area | Issue | Measure | Notes |
 | ----- | ----- | ----- | ----- |
 | **WATER** (goal: reliability \-\> water is enough and well used) | **provision**: water sources  | **number of water source(s)**  |  |
