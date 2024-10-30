@@ -126,6 +126,38 @@ Also useful for creating the indicator!
 🆒 Some indicators from the tables starting at page 21 can be adapted to my context. But overall this indicator is more for cities / regions instead of huts which can be considered as destinations, but practices are different. 
 
 ---
+## TOPIC: related research (sustainable toursim in alpine/natural areas)
+
+📝 Paunović, I., & Jovanović, V. (2017). Implementation of Sustainable Tourism in the German Alps: A Case Study. Sustainability, 9(2), 226. https://doi.org/10.3390/su9020226
+
+💡 Investigates opinions about sustainable tourism developement and monitoring with interviews with individuals working in this field.
+
+🆒 Developing significant indicators is difficult due to the diversity of contexts and priorities. Suggest that a holistic approach and collection and dissemination of data and knowledge on sustainability are the basis for developing sustainable mountain tourism. 
+
+---
+📝 Baker, M. S. P. (2017). Applying sustainable tourism indicators to measure the sustainability performance of two tourism lodges in the Namib Desert. Tourism and Leisure, 6.
+
+📝 Mearns, K. (2012). Using Sustainable Tourism Indicators to Measure the Sustainability of a Community-Based Ecotourism Venture: Malealea Lodge & Pony Trek Centre, Lesotho. Tourism Review International, 15, 135–147. https://doi.org/10.3727/154427211X13139345020499
+
+💡 Studies creating sustainable tourism indicators for lodges in South Africa. 
+
+🆒 Different environment (not alpine), but examples of evaluation of touristic structures in natural areas using composite indicators.
+
+---
+📝 Duglio, Stefano, e Riccardo Beltramo. «Quality Assessment in the Italian Mountain Huts». European Journal of Tourism Research 8 (1 ottobre 2014): 115–42. https://doi.org/10.54055/ejtr.v8i.154.
+
+💡 Qualitative analysis (interviews) of the quality of service perceived by guests in mountain huts in Piedmont, Italy.
+
+🆒 Mentions environmental variables such as supply material transportation, water management, energy production. Also accessibility to the hut.
+
+---
+📝 Campisi, Barbara, Federica Marinatto, e Paolo Bogoni. «The European Ecolabel in the Tourist Sector: An Analysis of the Italian Experience of Mountain Huts». In Pathways to Environmental Sustainability: Methodologies and Experiences, a cura di Roberta Salomone e Giuseppe Saija, 257–66. Cham: Springer International Publishing, 2014. https://doi.org/10.1007/978-3-319-03826-1_24.
+
+💡 Qualitative study aimed at evaluating the experience of the participation in the EU Ecolabel scheme in a specific context of tourist infrastructure: the mountain huts. Semi-structured questionnaires sent to hut-keepers.
+
+🆒 Point of view of hut keepers towards sustainability certificates.
+
+
 
 
 
