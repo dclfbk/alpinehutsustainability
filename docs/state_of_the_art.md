@@ -73,21 +73,6 @@ Also useful for creating the indicator!
 
 
 ## TOPIC: Measuring Sustainability
-
-📝 Stubelj Ars, M., & Bohanec, M. (2010). Towards the ecotourism: A decision support model for the assessment of sustainability of mountain huts in the Alps. Journal of Environmental Management, 91(12), 2554–2564. https://doi.org/10.1016/j.jenvman.2010.07.006
-
-💡 Proposes a Decision Support Model for assessing the sustainability and ecotourism state of mountain huts in the Slovenian Alps. Decision Support Systems (DSSs) are interactive computer-based systems intended to help decision makers utilize data and models to identify and solve problems and make decisions. This paper proposes a **qualitative multi-attribute model** that characterizes the sustainability of a hut on various aspects (energy, accessibility, etc.) by using hierarchically structured attributes. DSS is implemented on the Dexi software for 4 chosen mountain huts.
-
-🆒 The attributes used seem like a complete and feasible way to assess the level of sustainability. Their approach is purely qualitative, perhaps inspiration can be taken for a defining a quantitative indicator.
-
----
-📝 Mila Gandino. (2014). Il contributo dell’analisi multicriteri spaziale nella gestione sostenibile della rete di rifugi del CAI: il caso della provincia di Sondrio. Politecnico di Milano.
-
-💡 Master thesis developed a Multicriteria Spatial Decision Support System (MC-SDSS) for the Sondrio province, in order to find out the best criteria to allocate the funds. Considered both aspects related to the territory, evaluating the different areas on a cultural, touristic and environmental basis, and aspects related to every specific structure, regarding for example the conservation and the different environmental systems used. 
-
-🆒  From page 120 (Section 7.4.1) territorial analysis via creating several maps to assess different criterias for the territory’s potential, from touristic/accessibility and landscape value point of view.
-
----
 ## Indicators
 📝 Alpine Nachhaltigkeit auf Hütten (ANAH). (n.d.). Retrieved 13 August 2024, from https://www.alpenverein-muenchen-oberland.de/umwelt/klimaschutz/nachhaltiger-huettenbetrieb-anah/projekt-zum-nachhaltigen-huettenbetrieb/projekt-anah
 
@@ -128,6 +113,45 @@ Also useful for creating the indicator!
 ---
 ## TOPIC: related research (sustainable toursim in alpine/natural areas)
 
+📝 Stubelj Ars, M., & Bohanec, M. (2010). Towards the ecotourism: A decision support model for the assessment of sustainability of mountain huts in the Alps. Journal of Environmental Management, 91(12), 2554–2564. https://doi.org/10.1016/j.jenvman.2010.07.006
+
+💡 Proposes a Decision Support Model for assessing the sustainability and ecotourism state of mountain huts in the Slovenian Alps. Decision Support Systems (DSSs) are interactive computer-based systems intended to help decision makers utilize data and models to identify and solve problems and make decisions. This paper proposes a **qualitative multi-attribute model** that characterizes the sustainability of a hut on various aspects (energy, accessibility, etc.) by using hierarchically structured attributes. DSS is implemented on the Dexi software for 4 chosen mountain huts.
+
+🆒 The attributes used seem like a complete and feasible way to assess the level of sustainability. Their approach is purely qualitative, perhaps inspiration can be taken for a defining a quantitative indicator.
+
+---
+📝 Mila Gandino. (2014). Il contributo dell’analisi multicriteri spaziale nella gestione sostenibile della rete di rifugi del CAI: il caso della provincia di Sondrio. Politecnico di Milano.
+
+💡 Master thesis developed a Multicriteria Spatial Decision Support System (MC-SDSS) for the Sondrio province, in order to find out the best criteria to allocate the funds. Considered both aspects related to the territory, evaluating the different areas on a cultural, touristic and environmental basis, and aspects related to every specific structure, regarding for example the conservation and the different environmental systems used. 
+
+🆒  From page 120 (Section 7.4.1) territorial analysis via creating several maps to assess different criterias for the territory’s potential, from touristic/accessibility and landscape value point of view.
+
+---
+\[related to Gandino (2014)\]
+
+📝 Oppio, A., & Bottero, M. (2018). A strategic management based on multicriteria decision analysis: An application for the Alpine regions. International Journal of Multicriteria Decision Making, 7(3–4), 236–262. https://doi.org/10.1504/IJMCDM.2018.094384
+
+💡 Spatial mcdm approach for mountain huts, in this case to define how to allocate economic resources for renovations. Spatial analysis for territory touristic potential + mcdm analysis with PROMETHEE for hut’s evaluation.
+
+🆒 Useful for: criteria identification, preference functions setting.
+
+---
+📝 Duglio, Stefano, e Riccardo Beltramo. «Quality Assessment in the Italian Mountain Huts». European Journal of Tourism Research 8 (1 ottobre 2014): 115–42. https://doi.org/10.54055/ejtr.v8i.154.
+
+💡 Qualitative analysis (interviews) of the quality of service perceived by guests in mountain huts in Piedmont, Italy.
+
+🆒 Mentions environmental variables such as supply material transportation, water management, energy production. Also accessibility to the hut.
+
+---
+📝 Beltramo, R., & Duglio, S. (2012). I rifugi alpini del Verbano-Cusio-Ossola verso un turismo sostenibile. Una lettura sistemica della ricettività in alta quota. ITA. Retrieved from https://iris.unito.it/handle/2318/117970
+
+📝 Beltramo, R., & Duglio, S. (2016). A Methodology for the evaluation of mountain huts in the context of sustainable tourism. A Study on 40 facilities in Piedmont Region.
+
+💡 Book and methodology paper from the VETTA project carried out at University of Turin aimed at providing a characterization and monitoring system of 40 mountain huts in Piedmont to encourage sustainable developement.
+
+🆒 Characterization of the huts with a check-list of 5 categories (including accessibility, water, energy and waste management). Data was collected with questionnaires and visits to the huts, to assess also structural information about the building and visual impact on the landscape. Similar approach/objective as my project: it provides a detailed characterization of each hut, but also can be considered all together for a general assessment. 
+
+---
 📝 Paunović, I., & Jovanović, V. (2017). Implementation of Sustainable Tourism in the German Alps: A Case Study. Sustainability, 9(2), 226. https://doi.org/10.3390/su9020226
 
 💡 Investigates opinions about sustainable tourism developement and monitoring with interviews with individuals working in this field.
@@ -142,13 +166,6 @@ Also useful for creating the indicator!
 💡 Studies creating sustainable tourism indicators for lodges in South Africa. 
 
 🆒 Different environment (not alpine), but examples of evaluation of touristic structures in natural areas using composite indicators.
-
----
-📝 Duglio, Stefano, e Riccardo Beltramo. «Quality Assessment in the Italian Mountain Huts». European Journal of Tourism Research 8 (1 ottobre 2014): 115–42. https://doi.org/10.54055/ejtr.v8i.154.
-
-💡 Qualitative analysis (interviews) of the quality of service perceived by guests in mountain huts in Piedmont, Italy.
-
-🆒 Mentions environmental variables such as supply material transportation, water management, energy production. Also accessibility to the hut.
 
 ---
 📝 Campisi, Barbara, Federica Marinatto, e Paolo Bogoni. «The European Ecolabel in the Tourist Sector: An Analysis of the Italian Experience of Mountain Huts». In Pathways to Environmental Sustainability: Methodologies and Experiences, a cura di Roberta Salomone e Giuseppe Saija, 257–66. Cham: Springer International Publishing, 2014. https://doi.org/10.1007/978-3-319-03826-1_24.
