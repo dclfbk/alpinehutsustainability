@@ -1,9 +1,16 @@
-## Script containing functions to import 
+## Script containing functions to use in other files 
 import os
 import requests
 import zipfile
 
 def download_and_unzip_shapefile(url, extract_to='../data/', download=True):
+    ''' Parameters:
+        - url: access url for download OR file path for zip extraction
+        - extract to: destination path
+        - download: download if True, only extract if False
+
+        Returns: string message with destination path. 
+    '''
 
     if not os.path.exists(extract_to):
         os.makedirs(extract_to)
@@ -29,7 +36,7 @@ def download_and_unzip_shapefile(url, extract_to='../data/', download=True):
     return print(f'Shapefile ready in {extract_to}')
 
 
-def standardize_name(name):
+def standardize_name(name:str):
     ''' Converts names to lowercase, strips leading and trailing whitespace, 
     and removes non-alphanumeric characters.
     '''
