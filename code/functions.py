@@ -2,7 +2,9 @@
 import os
 import requests
 import zipfile
+import rasterio
 
+## DATA DOWNLOAD & PREPROCESSING
 def download_and_unzip_shapefile(url, extract_to='../data/', download=True):
     ''' Parameters:
         - url: access url for download OR file path for zip extraction
@@ -41,3 +43,12 @@ def standardize_name(name:str):
     and removes non-alphanumeric characters.
     '''
     return ''.join(e for e in name.lower().strip() if e.isalnum())
+
+## TERRITORIAL MAPS CREATION
+def save_raster_map(raster, dem_profile, filename, destination_dir = '../data/maps/'):
+    os.makedirs(destination_dir, exist_ok=True)
+    output_profile = dem_profile
+    output_profile.update(dtype=rasterio.float32, count=1)
+
+    with rasterio.open(destination_dir + f"{filename}.tif", 'w', **output_profile) as dst:
+        dst.write(raster, 1)
