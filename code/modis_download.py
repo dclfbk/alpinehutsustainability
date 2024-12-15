@@ -51,7 +51,7 @@ def process_granule(hdf, output_path, studyarea_bbox_4326=[10.46750857, 45.69873
     return output_tif
 
 def load_transformer(
-    studyarea_bbox_4326:list,
+    studyarea_bbox_4326,
     studyarea_crs = "EPSG:4326",
     modis_crs = "+proj=sinu +lon_0=0 +x_0=0 +y_0=0 +a=6371007.181 +b=6371007.181 +units=m +no_defs", # sinusoidal
     ):
@@ -62,13 +62,13 @@ def load_transformer(
 
     return {'min_x':min_x, 'min_y':min_y, 'max_x':max_x, 'max_y':max_y}
 
-def extract_study_area(hdf, ds_name, studyarea_bbox_4326:list, geo_md:dict, transf_coords:dict): 
+def extract_study_area(hdf, ds_name, studyarea_bbox_4326, geo_md:dict, transf_coords:dict): 
     ''' Crop dataset to select only study area. 
     
     Parameters:
     - hdf: hdf granule file
     - ds_name: name of dataset to crop
-    - studyarea_bbox_4326: bbox of study area (WGS84-EPSG:4326). Default is bbox for Trentino.
+    - studyarea_bbox_4326 (list or array): bbox of study area (WGS84-EPSG:4326). Default is bbox for Trentino.
     - geo_md: dict of geo metadata.
     - transf_coords: dict of transformed studyarea bbox coordinates.
     
@@ -191,7 +191,7 @@ def verify_missingdata(dataset, data, valid_thr=95):
         logger.warning(f"Warning: {missingdata_percentage}% missing data.")
         return False
 
-def extract_and_save_datasets(hdf, output_path, studyarea_bbox_4326:list, geo_md:dict, transf_coords:dict): 
+def extract_and_save_datasets(hdf, output_path, studyarea_bbox_4326, geo_md:dict, transf_coords:dict): 
 
     ''' Extracts all datasets in hdf tmpfile for the study area,
     then writes them in a local hdf file. '''
@@ -239,7 +239,7 @@ def extract_and_save_datasets(hdf, output_path, studyarea_bbox_4326:list, geo_md
 
     return output_path
 
-def save_dataset_tif(hdf, ds_name, output_path, geo_md:dict, transf_coords:dict, studyarea_bbox_4326:list, data_crs="+proj=sinu +lon_0=0 +x_0=0 +y_0=0 +a=6371007.181 +b=6371007.181 +units=m +no_defs"):
+def save_dataset_tif(hdf, ds_name, output_path, geo_md:dict, transf_coords:dict, studyarea_bbox_4326, data_crs="+proj=sinu +lon_0=0 +x_0=0 +y_0=0 +a=6371007.181 +b=6371007.181 +units=m +no_defs"):
     
     # Fix output file format
     granule_name = os.path.basename(output_path)
@@ -330,7 +330,8 @@ def process_single_granule(granule, output_dir, studyarea_bbox_4326):
     return output_tif
 
 def process_all_granules_in_parallel(granules, output_dir, max_workers=4, studyarea_bbox_4326=[10.46750857, 45.69873184, 11.94937569, 46.53633029]):
-    """Process all granules using parallel processing."""
+    """Process all granules using parallel processing.
+    studyarea_bbox_4326: list or array """
     
     success_count = 0
     failed_granules = []
@@ -399,9 +400,10 @@ def process_granules_with_batches(granules, output_dir, batch_size, max_workers=
 
 if __name__ == '__main__':
     TEMPORAL_RANGE = ("2021-10-01", "2024-10-01")
-    BBOX_4326 = (10.46750857, 45.69873184, 11.94937569, 46.53633029) # TRENTINO EPSG:4326
-    OUTPUT_DIR = "/Volumes/TOSHIBA_EXT/MODIS_RASTERS"
-    BATCH_SIZE = 15
+    #BBOX_4326 = (10.46750857, 45.69873184, 11.94937569, 46.53633029) # TRENTINO EPSG:4326
+    BBOX_4326 = (10.336952283156377, 45.610325100439375, 12.084442291314119, 46.61825468246664) # enlarged bbox (+10km) computed in modis_download.ipynb
+    OUTPUT_DIR = "/Volumes/TOSHIBA_EXT/MODIS_RASTERS_large/"
+    BATCH_SIZE = 10
 
     # Set up logging configuration
     logging.basicConfig(
@@ -431,7 +433,7 @@ if __name__ == '__main__':
     # Step 3: preprocess and download
     granules = earthaccess.open(results) # (list of file-like objects)
     ensure_directory_exists(OUTPUT_DIR)
-    process_granules_with_batches(granules, OUTPUT_DIR, batch_size=BATCH_SIZE)
+    process_granules_with_batches(granules, OUTPUT_DIR, batch_size=BATCH_SIZE, studyarea_bbox_4326=BBOX_4326)
 
     # Final logs
     end_time = time.time()
