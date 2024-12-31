@@ -1,9 +1,9 @@
-# alpine huts sustainability
-a data analysis framework to calculate the sustainability of alpine huts
+# Alpine Huts Sustainability
+A data analysis framework to calculate the sustainability of alpine huts.
 
 <img src="docs/logo_bw.png" width="20%" />
 
-This repository serves as the comprehensive archive for the thesis project titled "Assessing the Sustainability of Mountain Huts Using Spatially Driven Multi-Criteria Decision-Making Methods". It contains all the essential elements required to understand, replicate, and build upon the work presented in the thesis.
+This repository serves as the comprehensive archive for the thesis project titled "Sustainability Assessment of Mountain Huts: a GIS-Based Multi-Criteria Decision Analysis of SAT's Alpine Structures in Trentino". It contains all the essential elements required to understand, replicate, and build upon the work presented in the thesis.
 ### Repository Structure
 - code: The scripts and computational models developed for data analysis, application of Multi-Criteria Decision-Making (MCDM) methods, and visualization of results.
 - data: Datasets used throughout the research, including raw data collected from various sources, pre-processed data, and outputs generated during the analysis.
