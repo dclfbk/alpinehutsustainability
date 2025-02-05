@@ -15,6 +15,8 @@ data/nat_parks
 data/maps/maps_large/raster_splits/outRaster_full.tif.aux.xml
 data/maps/maps_large/*.aux.xml
 data/maps/maps_small 
+data/others/goods_aerialways_at_huts.geojson
+data/water/grandi_derivaz
 data/rank_df_old.csv
 
 # archival data (private)
