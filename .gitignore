@@ -11,7 +11,7 @@ data/MODIS
 data/terrain/*
 
 # not relevant
-data/nat_parks
+data/others/nat_parks
 data/maps/maps_large/raster_splits/outRaster_full.tif.aux.xml
 data/maps/maps_large/*.aux.xml
 data/maps/maps_small 
