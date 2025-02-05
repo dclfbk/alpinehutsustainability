@@ -1,4 +1,31 @@
 .DS_Store
 venv/*
-code/cache/*
+code/cache
 code/__pycache__
+modis_download.log
+
+## DATA
+# imported from external volume
+data/MODIS 
+# large data
+data/terrain/*
+
+# not relevant
+data/nat_parks
+data/maps/maps_large/raster_splits/outRaster_full.tif.aux.xml
+data/maps/maps_large/*.aux.xml
+data/maps/maps_small 
+data/rank_df_old.csv
+
+# archival data (private)
+data/others/sat_appr_energetico.csv
+data/others/sat_pernottamenti.csv
+data/others/sat_waste_management.csv
+data/water/sat_appr_idrico.csv
+
+data/alternatives_qual_eng.parquet
+data/alternatives_qual.parquet
+data/alternatives_unfiltered.parquet
+
+## RESULTS
+results/WP_res50.tif.aux.xml
