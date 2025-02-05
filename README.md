@@ -26,4 +26,24 @@ Practical findings consist in the identification of six clusters of huts based o
 ### Usage
 This repository is intended for researchers, decision-makers, and practitioners in the fields of environmental management and alpine resource planning. By following the documentation provided, users can adapt the methodologies for similar sustainability assessments in different contexts.
 
+1. Clone this repository in the desired directory:
+``` 
+git clone https://github.com/dclfbk/alpinehutsustainability.git
+```
+2. Go to the directory (`cd <dir/path>`) and create a virtual environment:
+``` 
+python3.10 -m venv <ENVNAME>
+```
+3. Activate environment:
+```
+# On Windows
+<ENVNAME>\Scripts\activate
+# On macOS/Linux
+source <ENVNAME>/bin/activate
+```
+4. Install required packages:
+```
+pip install -r requirements.txt
+```
+
 For inquiries or collaboration opportunities, please contact the author via the provided communication channels.
